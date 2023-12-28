@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    
+    background-color: rgba(1, 13, 51, 0.904);
+    color: aliceblue;
+    font-size: 50px;
+    padding: 10px;
+}
+
+img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 49px;
+}
+
+img:hover{
+    border:3px solid rgb(7, 236, 76);
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 49px;
+    font-size: 40px;
+}
+
+#user-score,#comp-score{
+    font-size: 60px;
+}
+
+#status{
+    display: inline;
+    font-size: 40px;
+   
+    border-radius: 50px;
+    background-color: rgb(235, 23, 23);
+    padding: 10px;
+    color: aliceblue ;
+}
+
+
+
+
